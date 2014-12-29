@@ -14,7 +14,7 @@ INCLUDES   += -I$(top_srcdir)/m7
 
 bin_PROGRAMS	= minerdlegacy
 
-dist_man_MANS	= minerd.1
+dist_man_MANS	= minerdlegacy.1
 
 minerdlegacy_SOURCES	= elist.h miner.h compat.h \
 		  cpu-miner.c util.c \
